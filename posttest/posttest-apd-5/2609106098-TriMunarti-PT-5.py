@@ -1,5 +1,6 @@
 # Sistem Penggajian & Absensi Karyawan (Procedural Style)
 
+database_karyawan = [
     {
         "id": "K01",
         "nama": "Beni",
