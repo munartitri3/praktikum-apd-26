@@ -103,14 +103,9 @@ while True:
                 ketemu = True
                 print(f"Karyawan Ditemukan: {karyawan['nama']}")
                 
-                try:
-                    hadir = int(input("Jumlah Masuk Hadir (hari): "))
-                    alpa = int(input("Jumlah Tanpa Keterangan/Alpa (hari): "))
-                    lembur = int(input("Total Jam Lembur: "))
-                except ValueError:
-                    print("Input harus berupa angka bulat! Proses dibatalkan.")
-                    break
-                
+                hadir = int(input("Masukkan jumlah hari hadir:"))
+                alpa = int(input("Masukkan jumlah hari alpa:"))
+                lembur = int(input("Masukkan total jam lembur:"))
                 tarif_lembur = 50000   
                 potongan_alpa = 100000 
                 
