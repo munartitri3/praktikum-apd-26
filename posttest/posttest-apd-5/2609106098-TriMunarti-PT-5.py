@@ -35,7 +35,6 @@ database_karyawan = [
         "gaji_bersih": 12500000
     }
 ]
-
 print("=== SISTEM PENGGAJIAN & ABSENSI KARYAWAN ===")
 
 while True:
