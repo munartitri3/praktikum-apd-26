@@ -8,5 +8,3 @@ database_karyawan = {
     "K02": {"nama": "Siti", "gol": "B", "hadir": 18, "alpa": 2, "lembur": 3, "gaji_bersih": 7950000},
     "K03": {"nama": "Rian", "gol": "C", "hadir": 22, "alpa": 0, "lembur": 10, "gaji_bersih": 12500000}
 }
-
-status_program = True
